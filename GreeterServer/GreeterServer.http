@@ -1,0 +1,6 @@
+@GreeterServer_HostAddress = http://localhost:5248
+
+GET {{GreeterServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
